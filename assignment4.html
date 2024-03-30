@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="assignment4.CSS">
+</head>
+<body>
+    
+    <div>
+    <form action="https://www.centennialcollege.ca/locations/progress-campus" method="GET">
+        <header>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/8/83/Centennial_College_Logo.jpg" style="width: 1500px; height:250px;">
+        <h1 class="Header" >CENTENNIAL COLLEGE</h1>
+        <h3 class="Header">Continuing Education Course/Instructors Evaluation</h3>
+        <p class="Header">Please read each statement carefully and consider each one individually. Use the computer card to make your 
+            <br>choice (use a pencil to fill in space). Give only one answer for each question</p>
+
+        <div class="proper">
+            <label for="Cname">Course name/Code:</label>
+            <input type="text" id="Cname" name="Cname" placeholder ="">
+        </div>
+        </header>
+        <br>
+        <main>
+        <div class="proper">
+
+            <h3>Semster</h3>
+            <label for="Semster">Choose a Semster:</label>
+
+            <select id="Semster">
+            <option value="Fall">Fall</option>
+            <option value="Winter">Winter</option>
+            <option value="Spring/Summer">Spring/Summer</option>
+            
+            </select>
+            
+            <div style="float:right; margin-right: 25%;">
+                <label for="Cname">Year:</label>
+                <input type="text" id="Cname" name="Cname" placeholder ="">
+            </div>
+        </div>
+
+        <br>
+
+        <div class="proper">
+            <label for="Cname">Instructors:</label>
+            <input type="text" id="Cname" name="Cname" placeholder ="">
+        </div>
+        <h3 class="proper">INSTRUCTOR</h3>
+        <div class="proper">
+            <h4>How would you rate the Instructor's:</h4>
+            <h5>1. Knowledge of Subject?</h5>
+            <div class="answer-options">
+                <label for="instructor_knowledge_excellent">
+                  <input type="radio" name="instructor_knowledge1" id="instructor_knowledge_excellent" value="excellent"> Excellent
+                </label>
+                <label for="instructor_knowledge_good">
+                  <input type="radio" name="instructor_knowledge1" id="instructor_knowledge_good" value="good"> Good
+                </label>
+                <label for="instructor_knowledge_fair">
+                  <input type="radio" name="instructor_knowledge1" id="instructor_knowledge_fair" value="fair"> Fair
+                </label>
+                <label for="instructor_knowledge_not_satisfactory">
+                  <input type="radio" name="instructor_knowledge1" id="instructor_knowledge_not_satisfactory" value="not_satisfactory"> Not Satisfactory
+                </label>
+              </div>
+
+            <h5>2. helpfulness?</h5>
+            <input type="radio" id="html" name="fav_language1" value="Fall"><label for="html">Excellent</label> 
+            <input type="radio" id="css" name="fav_language1" value="Winter"><label for="css">Good</label>
+            <input type="radio" id="javascript" name="fav_language1" value="Spring/Summer"><label for="javascript">Fair</label>
+            <input type="radio" id="javascript" name="fav_language1" value="Spring/Summer"><label for="javascript">Not Satisfying</label>
+
+            <h5>3. Courtesy and respect for all students?</h5>
+            <div class="answer-options3">
+                <label for="instructor_knowledge_excellent">
+                  <input type="radio" name="instructorKnowledge2" id="instructor_knowledge_excellent" value="excellent"> Excellent
+                </label>
+                <label for="instructor_knowledge_good">
+                  <input type="radio" name="instructorKnowledge2" id="instructor_knowledge_good" value="good"> Good
+                </label>
+                <label for="instructor_knowledge_fair">
+                  <input type="radio" name="instructorKnowledge2" id="instructor_knowledge_fair" value="fair"> Fair
+                </label>
+                <label for="instructor_knowledge_not_satisfactory">
+                  <input type="radio" name="instructorKnowledge2" id="instructor_knowledge_not_satisfactory" value="not_satisfactory"> Not Satisfactory
+                </label>
+              </div>
+
+            <h5>4. Communication skill?</h5>
+            <input type="radio" id="html" name="fav_language2" value="Fall"><label for="html">Excellent</label> 
+            <input type="radio" id="css" name="fav_language2" value="Winter"><label for="css">Good</label>
+            <input type="radio" id="javascript" name="fav_language2" value="Spring/Summer"><label for="javascript">Fair</label>
+            <input type="radio" id="javascript" name="fav_language2" value="Spring/Summer"><label for="javascript">Not Satisfying</label>
+
+            <h5>5. overall Performance?</h5>
+            <div class="answer-options">
+                <label for="instructor_knowledge_excellent">
+                  <input type="radio" name="instructor_knowledge3" id="instructor_knowledge_excellent" value="excellent"> Excellent
+                </label>
+                <label for="instructor_knowledge_good">
+                  <input type="radio" name="instructor_knowledge3" id="instructor_knowledge_good" value="good"> Good
+                </label>
+                <label for="instructor_knowledge_fair">
+                  <input type="radio" name="instructor_knowledge3" id="instructor_knowledge_fair" value="fair"> Fair
+                </label>
+                <label for="instructor_knowledge_not_satisfactory">
+                  <input type="radio" name="instructor_knowledge3" id="instructor_knowledge_not_satisfactory" value="not_satisfactory"> Not Satisfactory
+                </label>
+              </div>
+        </div>
+
+        <div>
+            <h3 class="proper">Course</h3>
+            <div class="proper">
+                
+                <h5>6. How would you rate the subject material?</h5>
+                <input type="radio" id="html" name="fav_language3" value="Fall"><label for="html">Excellent</label> 
+                <input type="radio" id="css" name="fav_language3" value="Winter"><label for="css">Good</label>
+                <input type="radio" id="javascript" name="fav_language3" value="Spring/Summer"><label for="javascript">Fair</label>
+                <input type="radio" id="javascript" name="fav_language3" value="Spring/Summer"><label for="javascript">Not Satisfying</label>
+    
+                <h5>7. How much did this course meet your expectations?</h5>
+                <div class="answer-options">
+                    <label for="instructor_knowledge_excellent">
+                      <input type="radio" name="instructor_knowledge4" id="instructor_knowledge_excellent" value="excellent"> Excellent
+                    </label>
+                    <label for="instructor_knowledge_good">
+                      <input type="radio" name="instructor_knowledge4" id="instructor_knowledge_good" value="good"> Good
+                    </label>
+                    <label for="instructor_knowledge_fair">
+                      <input type="radio" name="instructor_knowledge4" id="instructor_knowledge_fair" value="fair"> Fair
+                    </label>
+                    <label for="instructor_knowledge_not_satisfactory">
+                      <input type="radio" name="instructor_knowledge4" id="instructor_knowledge_not_satisfactory" value="not_satisfactory"> Not Satisfactory
+                    </label>
+                  </div>
+    
+                <h5>8. How would you rate this course (Overall)?</h5>
+                <input type="radio" id="html" name="fav_language4" value="Fall"><label for="html">Excellent</label> 
+                <input type="radio" id="css" name="fav_language4" value="Winter"><label for="css">Good</label>
+                <input type="radio" id="javascript" name="fav_language4" value="Spring/Summer"><label for="javascript">Fair</label>
+                <input type="radio" id="javascript" name="fav_language4" value="Spring/Summer"><label for="javascript">Not Satisfying</label>
+        </div>
+
+        <div>
+            <h3 class="proper">General Information</h3>
+            <div class="proper">
+                
+                <h5>9. Was the course outline reviewed/explained at the beginning of the course?</h5>
+                <div class="answer-options">
+                    <label for="instructor_knowledge_excellent">
+                      <input type="radio" name="instructor_knowledge5" id="instructor_knowledge_excellent" value="excellent"> Excellent
+                    </label>
+                    <label for="instructor_knowledge_good">
+                      <input type="radio" name="instructor_knowledge5" id="instructor_knowledge_good" value="good"> Good
+                    </label>
+                    <label for="instructor_knowledge_fair">
+                      <input type="radio" name="instructor_knowledge5" id="instructor_knowledge_fair" value="fair"> Fair
+                    </label>
+                    <label for="instructor_knowledge_not_satisfactory">
+                      <input type="radio" name="instructor_knowledge5" id="instructor_knowledge_not_satisfactory" value="not_satisfactory"> Not Satisfactory
+                    </label>
+                  </div>
+    
+                <h5>10. Would you recommend this course to a friend with similiar interests?</h5>
+                <input type="radio" id="html" name="fav_language6" value="Fall"><label for="html">Excellent</label> 
+                <input type="radio" id="css" name="fav_language6" value="Winter"><label for="css">Good</label>
+                <input type="radio" id="javascript" name="fav_language6" value="Spring/Summer"><label for="javascript">Fair</label>
+                <input type="radio" id="javascript" name="fav_language6" value="Spring/Summer"><label for="javascript">Not Satisfying</label>
+    
+        </div>
+
+        <br>
+
+        
+
+        <div class="proper">
+            <p><h3><b> Other Comments</b>(Please use the back of the computer card or this paper if necessary)</h3></p>
+            <label for="Cname">11. What is the best thing about this course?</label>
+            <input type="text" id="Cname" name="Cname" placeholder =""><br>
+
+            <label for="Cname">12. How can we improve this course?</label>
+            <input type="text" id="Cname" name="Cname" placeholder =""><br>
+            
+            
+            <label for="message">13. Other</label>
+            <textarea name="message" id="message" rows="4" cols="50"></textarea>
+        </div>
+    </main>
+        <br>
+    <footer>   
+        <div class="proper">
+            <input type="reset">
+        </div>
+
+        <br>
+
+        <div class="proper">
+            <input type="submit">
+        </div>
+        <p class="proper">
+            Thank You! We pay attention to your Feedback!
+        </p>
+        <div class="proper">Web:<a href="https://www.centennialcollege.ca/locations/progress-campus">WWW.CentennialCollege.Ca</a>    Email: <a href ="continuingeducation@centennialcollege.ca">continuingeducation@centennialcollege.ca</a></div>
+    </footer>     
+    </form>
+</div>
+<div>
+  <a href="C:\Users\dahiy\Pictures\Screenshots\Detail.html" id ="new">Index.html</a>
+</div>
+<div>
+  <img src="https://wisynco.com/wp-content/uploads/2014/12/footer-background-01-300x120.jpg" style="width: 1500px; height:50px;">
+</div>
+</body>
+</html>
